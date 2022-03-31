@@ -49,6 +49,10 @@ export default {
     baseURL: '/',
   },
 
+  router: {
+    base: 'kriptobit-landing'
+  },
+
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {

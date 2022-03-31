@@ -28,7 +28,8 @@
 
 <script lang="ts">
 import Vue from 'vue'
-import Button from '~/components/ui/Button'
+// eslint-disable-next-line
+import Button from '~/components/ui/Button.vue'
 
 export default Vue.extend({
   name: 'IndexPage',

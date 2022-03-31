@@ -1,0 +1,1 @@
+window.__NUXT__=(function(a){return {staticAssetsBase:"kriptobit-landing\u002F_nuxt\u002Fstatic\u002F1648750506",layout:"default",error:a,serverRendered:true,routePath:"\u002Ftest",config:{_app:{basePath:"kriptobit-landing\u002F",assetsPath:"kriptobit-landing\u002F_nuxt\u002F",cdnURL:a}}}}(null));
