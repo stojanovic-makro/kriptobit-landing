@@ -2,11 +2,11 @@
   <div class="main-page-wrapper" style="min-width: 810px">
     <header>
       <div class="logo">
-        <img style="margin-right: 3px" src="/icons/kriptobit-left.svg" alt="logo">
-        <img style="margin-right: 5px" src="/icons/kriptobit-right.svg" alt="logo">
-        <img src="/icons/kriptobit-text.svg" alt="logo">
+        <img style="margin-right: 3px" src="~/static/icons/kriptobitLeft.svg" alt="logo">
+        <img style="margin-right: 5px" src="~/static/icons/kriptobitRight.svg" alt="logo">
+        <img src="~/static/icons/kriptobitText.svg" alt="logo">
       </div>
-      <img src="/icons/burger.svg" alt="menu">
+      <img src="~/static/icons/burger.svg" alt="menu">
     </header>
     <main>
       <section class="row" style="justify-content: space-between; flex-wrap: wrap">
@@ -19,7 +19,7 @@
           </div>
         </div>
         <div>
-          <img style="height: 480px; width: 480px" src="/icons/union.svg" alt="union">
+          <img style="height: 480px; width: 480px" src="~/static/icons/union.svg" alt="union">
         </div>
       </section>
     </main>
