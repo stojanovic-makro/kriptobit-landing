@@ -138,6 +138,7 @@ h3 {
 
 .button {
   font-family: 'Atyp Display Semibold';
+  cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -146,3 +147,8 @@ h3 {
   width: 216px;
   color: black;
 }
+
+// Animations
+
+.home-enter-active, .home-leave-active { transition: opacity .5s; }
+.home-enter, .home-leave-active { opacity: 0; }

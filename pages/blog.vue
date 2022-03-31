@@ -13,18 +13,10 @@
       <img v-else src="~/static/icons/burger.svg" style="cursor: pointer" alt="menu" @click="isMenu = !isMenu">
     </header>
     <main>
-      <section class="row" style="justify-content: space-between; align-items: end; flex-wrap: wrap; padding-top: 145px; padding-bottom: 128px">
+      <section style="padding-top: 145px; padding-bottom: 128px">
         <div>
-          <p class="small-title">Pulvinar luctus</p>
-          <p style="font-family: 'Atyp Display Medium'; max-width: 744px; font-size: 64px; line-height: 92px; margin-top: 0"><span style="border-bottom: 4px solid white; padding-bottom: -12px; display: inline-block; height: 72px">Najsigurnija</span> kripto menjacnica za razmenu digitalne imovine !</p>
-          <p style="max-width: 744px" class="t1">Verujemo u svet ekonomije deljenja i decentralizacije, pa smo zamislili i stvorili alate i platforme nove generacije za rudare i trgovce kriptovalutama.</p>
-          <div class="row" style="margin-top: 64px">
-            <input class="email-input" type="email" placeholder="Vaš Email....">
-            <Button label="PRIJAVI SE" />
-          </div>
-        </div>
-        <div style="width: 400px; height: 416px">
-          <img style="height: 480px; width: 480px" src="~/static/icons/union.svg" alt="union">
+          <p style="font-family: 'Atyp Display Medium'; font-size: 64px; line-height: 92px; margin-top: 0">Blog</p>
+          <p style="max-width: 744px" class="t1">This is a blog page.</p>
         </div>
       </section>
     </main>
@@ -38,9 +30,9 @@ import Button from '~/components/ui/Button.vue'
 import HeaderMenu from '~/components/ui/headerMenu.vue'
 
 export default Vue.extend({
-  name: 'IndexPage',
+  name: 'Blog',
   head: {
-    title: 'KRIPTOBIT'
+    title: 'KRIPTOBIT | Blog'
   },
   components: { Button, HeaderMenu },
   data: () => ({
