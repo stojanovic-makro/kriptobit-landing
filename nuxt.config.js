@@ -50,7 +50,7 @@ export default {
   },
 
   router: {
-    base: 'kriptobit-landing'
+    base: '/'
   },
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
